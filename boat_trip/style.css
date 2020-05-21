@@ -1,0 +1,24 @@
+html,
+body {
+  height: 90%;
+  margin: 0;
+  padding: 0;
+}
+#map {
+  height: 60%;
+  width: 60%;
+}
+.weatherIcon{
+  height: 10%;
+  position: relative;
+  left: 10%;
+}
+.windSpeed,
+.windDirection,
+.location,
+.weatherTemp,
+.weatherDescription {
+  height: 1%;
+  position: relative;
+  left: 12%;
+}

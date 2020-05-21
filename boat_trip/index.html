@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta charset="utf-8">
+  <!-- <style>
+    /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+    #map {
+      height: 50%;
+      width: 50%;
+    }
+
+    /* Optional: Makes the sample page fill the window. */
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style> -->
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="main.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_hLk7PSfWGdfOf0OCRgVdtx7zr-xzZQw&callback=initMap"
+    async defer></script>
+
+  <title>Simple Map</title>
+</head>
+
+<body>
+  <div id="map"></div>
+  <div class="weather-container"></div>
+  <img class="weatherIcon" src="" alt="">
+  <p class="location"></p>
+  <p class="weatherTemp"></p>
+  <p class="weatherDescription"></p>
+  <p class="windSpeed"></p>
+  <p class="windDirection"></p>
+  <!-- <script>
+    var map;
+    function initMap() {
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: { lat: -34.397, lng: 150.644 },
+        zoom: 3
+      });
+    }
+
+  </script> -->
+
+</body>
+
+</html>
